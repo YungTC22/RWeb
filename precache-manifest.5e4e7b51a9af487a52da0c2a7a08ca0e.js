@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/RWeb/static/js/runtime~main.7d1b14ca.js"
   },
   {
-    "revision": "2500388d0f25eeaae65b",
-    "url": "/RWeb/static/js/main.2500388d.chunk.js"
+    "revision": "0438c010a3b972a85233",
+    "url": "/RWeb/static/js/main.0438c010.chunk.js"
   },
   {
     "revision": "1e63c5d3d759c8028bf0",
     "url": "/RWeb/static/js/1.1e63c5d3.chunk.js"
   },
   {
-    "revision": "2500388d0f25eeaae65b",
+    "revision": "0438c010a3b972a85233",
     "url": "/RWeb/static/css/main.6de483d6.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/RWeb/static/css/1.f68d9c6b.chunk.css"
   },
   {
-    "revision": "58f99f2b79693a765ad2751414913c31",
+    "revision": "064181e79fe83831714223d6ae99aa8d",
     "url": "/RWeb/index.html"
   }
 ];
