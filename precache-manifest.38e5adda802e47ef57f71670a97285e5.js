@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/yungtc22/RWeb/static/js/runtime~main.405f70dc.js"
   },
   {
-    "revision": "27711be5bce9c8678d08",
-    "url": "/yungtc22/RWeb/static/js/main.27711be5.chunk.js"
+    "revision": "56b96849944c8ef225b8",
+    "url": "/yungtc22/RWeb/static/js/main.56b96849.chunk.js"
   },
   {
     "revision": "1e63c5d3d759c8028bf0",
     "url": "/yungtc22/RWeb/static/js/1.1e63c5d3.chunk.js"
   },
   {
-    "revision": "27711be5bce9c8678d08",
+    "revision": "56b96849944c8ef225b8",
     "url": "/yungtc22/RWeb/static/css/main.6de483d6.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/yungtc22/RWeb/static/css/1.f68d9c6b.chunk.css"
   },
   {
-    "revision": "8494e108e1aa9245c2e5e43a72e1ad22",
+    "revision": "e74bd5192c84bd28366324e3aec06e1e",
     "url": "/yungtc22/RWeb/index.html"
   }
 ];
