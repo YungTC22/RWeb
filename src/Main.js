@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { Card, Button, CardBody, CardTitle, CardText, Col, CardDeck } from 'reactstrap';
+import { Card, Button, CardBody, CardTitle, CardText, CardDeck } from 'reactstrap';
 
 export class Main extends Component {
     render() {
         return (
             <div className="container">
-                <h1>RANI CHANG</h1>
+                <h1 className="text-success">RANI CHANG</h1>
                 <CardDeck>
                     <Card body outline color="info">
                         <CardBody>
                             <CardTitle>
-                                <h2>Introduction</h2>
+                                <h2 className="text-info">Introduction</h2>
                                 <p></p>
                             </CardTitle>
 
@@ -22,8 +22,8 @@ export class Main extends Component {
                                 <p>Check Out My Link Below~</p>
                             </CardText>
 
-                            <a target="_blank" href="https://linkedin.com/in/yungtc/">
-                                <Button outline color="info" size="lg">Linkedin</Button>
+                            <a target="blank" href="https://linkedin.com/in/yungtc/">
+                                <Button outline color="dark" size="lg">Linkedin</Button>
                             </a>
 
                         </CardBody>

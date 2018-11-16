@@ -19,7 +19,7 @@ export class Projects extends Component {
     render() {
         console.log(this.state.data)
         return <div className="container">
-            <h1>PROJECTS COMPLETED</h1>
+            <h1 className="text-success">PROJECTS COMPLETED</h1>
             <p></p>
             {this.state.data.map((d, i) => {
                 return (
@@ -28,13 +28,13 @@ export class Projects extends Component {
                             <Card body outline color="info">
                                 <CardBody>
                                     <CardTitle>
-                                        <h2> {d.Name}</h2>
+                                        <h2 className="text-info"> {d.Name}</h2>
                                     </CardTitle>
                                     <CardText>
                                         {d.Description}
                                     </CardText>
-                                    <a target="_blank" href={d.Link}>
-                                        <Button outline color="info" size="lg">Link</Button>
+                                    <a target="blank" href={d.Link}>
+                                        <Button outline color="dark" size="lg">Link</Button>
                                     </a>
                                 </CardBody>
                             </Card>

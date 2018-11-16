@@ -5,14 +5,14 @@ export class About extends Component {
     render() {
         return (
             <div className="container">
-                <h1>ABOUT MEE</h1>
+                <h1 className="text-success">ABOUT MEE</h1>
                 <Col>
                     <CardDeck>
 
                         <Card body outline color="info">
                             <CardBody>
                                 <CardTitle>
-                                    <h2> General Info </h2>
+                                    <h2 className="text-info"> General Info </h2>
                                 </CardTitle>
 
                                 <CardText>
@@ -27,7 +27,7 @@ export class About extends Component {
                         <Card body outline color="info">
                             <CardBody>
                                 <CardTitle>
-                                    <h2> Skills </h2>
+                                    <h2 className="text-info"> Skills </h2>
                                 </CardTitle>
 
                                 <CardText>
@@ -38,6 +38,24 @@ export class About extends Component {
                                 </CardText>
                             </CardBody>
                         </Card>
+
+                        <Card body outline color="info">
+                            <CardBody >
+                                <CardTitle>
+                                    <h2 className="text-info"> Classes </h2>
+                                </CardTitle>
+
+                                <CardText>
+                                    <p> <strong>CSE-142</strong> (Java) </p>
+                                    <p> <strong>INFO-180</strong> (Python) </p>
+                                    <p> <strong>INFO-201</strong> (R) </p>
+                                    <p> <strong>INFO-330</strong> (SQL) </p>
+                                    <p> <strong>INFO-340</strong> (HTML/CSS/JavaScript) </p>
+                                    <p> <strong>INFO-360</strong> (Design) </p>
+                                </CardText>
+                            </CardBody>
+                        </Card>
+
                     </CardDeck>
                     <br />
                 </Col>
