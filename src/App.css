@@ -35,3 +35,13 @@ div .card-deck {
   text-align: center;
   float: inherit;
 }
+
+body {
+    background-image: url('./img/FullSizeRender.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%; 
+    width: 100%;
+}

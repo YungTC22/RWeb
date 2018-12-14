@@ -11,7 +11,7 @@ export default class App extends Component {
     render() {
         return (
             <Router>
-                <div>
+                <div className="body">
                     <nav className="wrapper navbar navbar-default">
                         <Link className="text-dark" to="/">MAIN</Link>
                         {' '}
