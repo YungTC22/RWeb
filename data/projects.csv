@@ -1,5 +1,5 @@
 ﻿Name,Description,Link
-Mortality Rates Between Years 2010-2016,Shiny Application that utilizes two different datasets to show the Mortality Rate between the years 2010 to 2016 in the United States of America,https://yungtc22.shinyapps.io/deaths-in-US-cities/
-Parent Plan ,An App for Single Parents to use to connect with other parents and get checklist items done ,https://www.figma.com/file/XPowlkQGhj0D2WmWxIdZPlTM/Parent-Plan
-HomeBound,An App designed to make traveling easier with Flight Details right on the phone ,https://www.figma.com/file/dRsv65QMRr5FJKpQx9NzVv7X/Home-Bound
-Fridge,An Design for INFO 360 ,https://www.figma.com/file/FFbQAmWu5DfiAI1890GEpqc1/Fridge
+Mortality Rates Between Years 2010-2016,A Shiny Application that utilizes two different datasets to show the Mortality Rate between the years 2010 to 2016 in the United States of America. Created with Rstudio / Shiny. Worked in a group of three to complete this task. Last project for INFO 201 (Technical Foundations (R)),https://yungtc22.shinyapps.io/deaths-in-US-cities/
+Parent Plan ,An App for single parents to use to connect with other parents and get everday tasks done easier with our implemented ideas. Created with Figma. Last Project for INFO 200 (Intro to Informatics),https://www.figma.com/file/XPowlkQGhj0D2WmWxIdZPlTM/Parent-Plan
+HomeBound,An App designed to make traveling easier with Flight Details right on the phone using Figma,https://www.figma.com/file/dRsv65QMRr5FJKpQx9NzVv7X/Home-Bound
+H+Cam,An App created using React that helps others in Washington State locate hospitals and review them. Worked together in a group of 2 to complete this website. Last project for INFO 340 (Web Development),https://info340d-au18.github.io/project-ShrutiR5/#/
