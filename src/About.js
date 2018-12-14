@@ -55,7 +55,8 @@ export class About extends Component {
                     "I am a vegetarian Chef", 
                     "I love video games",
                     "I am multi-lingual",
-                    "I aspire to become a data scientist"
+                    "I aspire to become a data scientist",
+                    "Proud Seattleite"
                 ]
             }
         ]

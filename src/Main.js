@@ -27,7 +27,9 @@ export class Main extends Component {
                         <Button outline color="success" size="lg">GitHub</Button>
                     </a>
                 </section>
+
                 <br />
+                
                 <section>
                     <a target="blank" href="https://linkedin.com/in/yungtc/">
                         <Button outline color="success" size="lg">Linkedin</Button>

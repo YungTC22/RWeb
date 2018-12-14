@@ -1,5 +1,5 @@
 import Typing from 'react-typing-animation';
-import React, { Component } from 'react';
+import React from 'react';
 
 export const AnimatedTypingComponent = (props) => {
     return (
