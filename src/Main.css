@@ -1,0 +1,12 @@
+body {
+    background-image: url('./img/FullSizeRender.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%; 
+}
+
+div.introduction {
+    width: 60%;
+    line-height: 2.3;
+}

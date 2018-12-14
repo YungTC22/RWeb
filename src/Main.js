@@ -1,35 +1,39 @@
 import React, { Component } from 'react';
-import { Card, Button, CardBody, CardTitle, CardText, CardDeck } from 'reactstrap';
+import { Button } from 'reactstrap';
+import './Main.css';
+import { AnimatedTypingComponent } from './Typer.js'
 
 export class Main extends Component {
+    state = {
+        val: "RANI CHANG"
+    }
     render() {
         return (
             <div className="container">
-                <h1 className="text-success">RANI CHANG</h1>
-                <CardDeck>
-                    <Card body outline color="info">
-                        <CardBody>
-                            <CardTitle>
-                                <h2 className="text-info">Introduction</h2>
-                                <p></p>
-                            </CardTitle>
-
-                            <CardText>
-                                <p>Hello :) Welcome to my site!</p>
-                                <p>I am a sophomore at the Univeristy of Washington studying B.S Informatics, </p>
-                                <p>B.S Health Informatics and Health Information Management, and a minor in Business Entrepreneurship </p>
-                                <p>I enjoy Seattle's Weather and GO DAWGS</p>
-                                <p>Check Out My Link Below~</p>
-                            </CardText>
-
-                            <a target="blank" href="https://linkedin.com/in/yungtc/">
-                                <Button outline color="dark" size="lg">Linkedin</Button>
-                            </a>
-
-                        </CardBody>
-                    </Card>
-                </CardDeck>
+                <h1> < AnimatedTypingComponent val={this.state.val} /> </h1>
                 <br />
+                <h2 className="text-dark">Hello :) Welcome to my personal website!</h2>
+
+                <div className="introduction">
+                    <p>I am currently a sophomore at the University of Washington pursuing a double degree in Informatics,
+                        Health Informatics and Health Information Management (HIHIM)
+                        and a minor in Business Entrepreneurship. I aspire to become a data scientist
+                        that utilizes data to help others boost their careers/businesses!
+                    </p>
+                </div>
+
+                <section>
+                    <a target="blank" href="https://github.com/YungTC22">
+                        <Button outline color="success" size="lg">GitHub</Button>
+                    </a>
+                </section>
+                <br />
+                <section>
+                    <a target="blank" href="https://linkedin.com/in/yungtc/">
+                        <Button outline color="success" size="lg">Linkedin</Button>
+                    </a>
+                </section>
+
             </div>
         );
     }
