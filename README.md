@@ -1,18 +1,21 @@
 
 
-## Portfolio
+## APPLICATION:
 
-**Currently in construction** A portfolio/personal website created using React
+**CURRENTLY UNDER CONSTRUCTION:** A portfolio/personal website created using React
 
-## `LINK`
+## `LINK`:
 
-https://yungtc22.github.io/RWeb/#/
+[RANI CHANG](https://yungtc22.github.io/RWeb/#/)
 
-## Built With:
+## BUILT WITH:
 * [Javascript](https://www.javascript.com/) - Programming Language
 * React - Web Framework
 * ReactStrap
+* [react-typing-animation](https://www.npmjs.com/package/react-typing-animation)
 
-## Creator
+## CREATOR:
 * **Rani Chang** - Currently a sophomore at the University of Washington
 * Started Web Development 3 months ago
+* Currently looking for internships :D
+* Contact: YungTsye@Gmail.com

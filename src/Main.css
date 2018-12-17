@@ -1,4 +1,11 @@
 div.introduction {
+    width: 100%;
+    line-height: 2.1;
+}
+
+@media (min-width: 600px)  {
+div.introduction {
     width: 60%;
     line-height: 2.3;
+    }
 }
