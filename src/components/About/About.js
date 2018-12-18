@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardBody, CardTitle, CardText, Col, CardDeck } from 'reactstrap';
-import { AnimatedTypingComponent } from './Typer.js'
+import { AnimatedTypingComponent } from '../../Typer.js'
 import './About.css';
 
 export class About extends Component {

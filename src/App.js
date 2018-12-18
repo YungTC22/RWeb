@@ -2,9 +2,9 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Projects } from './Projects';
-import { About } from './About';
-import { Main } from './Main';
+import { Projects } from './components/Projects/Projects';
+import { About } from './components/About/About';
+import { Main } from './components/Main/Main';
 import './App.css';
 
 export default class App extends Component {

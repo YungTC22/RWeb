@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import './Main.css';
-import { AnimatedTypingComponent } from './Typer.js'
+import { AnimatedTypingComponent } from '../../Typer.js'
 
 export class Main extends Component {
     state = {
         val: "RANI CHANG"
     }
+    
     render() {
         return (
             <div className="container">

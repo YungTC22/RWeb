@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import * as d3 from 'd3';
 import { Card, Button, CardBody, CardTitle, CardText, Col, CardDeck } from 'reactstrap';
 import './Projects.css';
-import { AnimatedTypingComponent } from './Typer.js'
+import { AnimatedTypingComponent } from '../../Typer.js'
 
 export class Projects extends Component {
     constructor(props) {
